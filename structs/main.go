@@ -31,8 +31,8 @@ func main() {
 		},
 	}
 
-	jimPointer := &jim // & => sets the memory address of the variable
-	jimPointer.updateName("Pam")
+	// & => sets the memory address of the variable
+	jim.updateName("Pam")
 	jim.print()
 }
 
