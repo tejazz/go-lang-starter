@@ -29,3 +29,9 @@ func (englishBot) getGreeting() string {
 func (spanishBot) getGreeting() string {
 	return "Hola!"
 }
+
+/*
+	- interfaces are not generic types
+	- interfaces are implicit by nature
+	- interfaces are a contract to help us manage types
+*/
